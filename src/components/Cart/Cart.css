@@ -1,0 +1,10 @@
+.selected-items{
+    margin-top: 10px;
+}
+.cart{
+    background-color: red;
+    position: sticky;
+}
+.heading{
+    background-color: red;
+}
