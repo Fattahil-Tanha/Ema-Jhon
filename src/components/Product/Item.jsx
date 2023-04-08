@@ -12,7 +12,7 @@ const Item = (props) => {
             <p>price : ${price}</p>
             <p>Manufacturer: {seller}</p>
             <p>Rating: {ratings} Star</p>
-            <button onClick={()=> handleAddtoCart(props.product)}>
+            <button className='add-btn' onClick={()=> handleAddtoCart(props.product)}>
             Add to Cart
             <FontAwesomeIcon icon={faShoppingCart} />
             </button>

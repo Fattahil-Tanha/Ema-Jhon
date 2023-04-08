@@ -1,10 +1,26 @@
-.selected-items{
+
+.cart{
+    background-color: #4F4557;
+    position: sticky;
+    top: 5px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 49px;
     margin-top: 10px;
 }
-.cart{
-    background-color: red;
-    position: sticky;
+.cart p{
+    margin-top: 15px;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
-.heading{
-    background-color: red;
+.total{
+    font-size: larger;
+    color: bisque;
 }

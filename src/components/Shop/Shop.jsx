@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Item from '../Product/Item';
-import Cart from '../cart/cart';
 
 import './Shop.css';
+import Cart from '../Cart/Cart';
+
+
 const Shop = () => {
     const [products , setProducts] = useState([]);
     const [cart, setCart] = useState([])
